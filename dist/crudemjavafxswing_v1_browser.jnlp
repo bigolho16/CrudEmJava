@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="crudemjavafxswing_v1_browser.jnlp">
+  <information>
+    <title>crudemjavafxswing_v1</title>
+    <vendor>loboMal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="crudemjavafxswing_v1.jar" size="44453" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.29.jar" size="2519547" download="eager" />
+    <jar href="lib/protobuf-java-3.19.4.jar" size="1681869" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="br.com.agenda.view.Main"  name="crudemjavafxswing_v1" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
